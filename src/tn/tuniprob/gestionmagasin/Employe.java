@@ -30,7 +30,7 @@ public class Employe {
     public boolean equals(Object o) {
         if (o instanceof Employe) {
             Employe e = (Employe) o;
-            return this.id == e.id && this.nom.equals(e.nom) && this.adresse.equals(e.adresse) && this.nbrHeures == e.nbrHeures;
+            return this.id == e.id & this.nom.equals(e.nom) & this.adresse.equals(e.adresse) & this.nbrHeures == e.nbrHeures;
         }
         return false;
     }
